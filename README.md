@@ -1,3 +1,5 @@
+# 为了和厂商sdk版本保持一致，此处fork后在项目总处理厂商sdk
+
 [![QQ Group](https://img.shields.io/badge/QQ%20Group-862401307-red.svg)]()
 # JPush Flutter Plugin
 
