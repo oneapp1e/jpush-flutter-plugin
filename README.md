@@ -31,7 +31,7 @@ dependencies:
       
 // pub 集成
 dependencies:
-  jpush_flutter: 2.1.4
+  jpush_flutter: 2.3.2
 ```
 
 ### 配置
@@ -57,8 +57,6 @@ android: {
         JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
     ]
   }    
-}
-```
 
 ##### iOS:
 
