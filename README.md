@@ -1,16 +1,19 @@
+## 升级Android jpush 版本
++ ：升级 Android JPush 4.6.6
 # 为了和厂商sdk版本保持一致，此处fork后在项目中处理厂商sdk
 ```
     // 接入华为厂商
-    implementation 'com.huawei.hms:push::5.3.0.301'
-    implementation 'cn.jiguang.sdk.plugin:huawei:4.4.5'
+    implementation 'com.huawei.hms:push:6.3.0.304'
+    implementation 'cn.jiguang.sdk.plugin:huawei:4.7.0'
     // 接入魅族厂商
-    implementation 'cn.jiguang.sdk.plugin:meizu:4.4.5'
+    implementation 'cn.jiguang.sdk.plugin:meizu:4.7.0'
     // 接入 VIVO 厂商
-    implementation 'cn.jiguang.sdk.plugin:vivo:4.4.5'
-    // 接入 OPPO 厂商
-    implementation 'cn.jiguang.sdk.plugin:oppo:4.4.5'
+    implementation 'cn.jiguang.sdk.plugin:vivo:4.7.0'
     // 接入小米厂商
-    implementation 'cn.jiguang.sdk.plugin:xiaomi:4.4.5'
+    implementation 'cn.jiguang.sdk.plugin:xiaomi:4.7.0'
+    // 接入 OPPO 厂商
+    implementation 'cn.jiguang.sdk.plugin:oppo:4.7.0'
+
 ```
 
 [![QQ Group](https://img.shields.io/badge/QQ%20Group-862401307-red.svg)]()
