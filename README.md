@@ -1,5 +1,5 @@
 ## 升级Android jpush 版本
-+ ：升级 Android JPush 4.6.6
++ ：升级 Android JPush 4.7.0
 # 为了和厂商sdk版本保持一致，此处fork后在项目中处理厂商sdk
 ```
     // 接入华为厂商
