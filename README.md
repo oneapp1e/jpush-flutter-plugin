@@ -1,3 +1,21 @@
+## 当前使用 JPush Android SDK v4.8.4
+# 为了和厂商sdk版本保持一致，此处fork后在项目中处理厂商sdk
+```
+    // 接入华为厂商
+    implementation 'com.huawei.hms:push:6.5.0.300'
+    implementation 'cn.jiguang.sdk.plugin:huawei:4.8.4'
+    // 接入魅族厂商
+    implementation 'cn.jiguang.sdk.plugin:meizu:4.8.4'
+    // 接入 VIVO 厂商
+    implementation 'cn.jiguang.sdk.plugin:vivo:4.8.4'
+    // 接入小米厂商
+    implementation 'cn.jiguang.sdk.plugin:xiaomi:4.8.4'
+    // 接入 OPPO 厂商
+    implementation 'cn.jiguang.sdk.plugin:oppo:4.8.4'
+
+```
+
+
 [![QQ Group](https://img.shields.io/badge/QQ%20Group-862401307-red.svg)]()
 # JPush Flutter Plugin
 
