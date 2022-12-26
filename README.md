@@ -12,6 +12,12 @@
     implementation 'cn.jiguang.sdk.plugin:xiaomi:4.8.4'
     // 接入 OPPO 厂商
     implementation 'cn.jiguang.sdk.plugin:oppo:4.8.4'
+    // JPush Android SDK v4.6.0 开始，需要单独引入 oppo 厂商 aar
+    implementation(name: 'com.heytap.msp-push-3.1.0', ext: 'aar')
+    //以下为 OPPO 3.0.0 aar需要依赖
+    implementation 'com.google.code.gson:gson:2.6.2'
+    implementation 'commons-codec:commons-codec:1.6'
+    implementation 'androidx.annotation:annotation:1.1.0'
 
 ```
 
